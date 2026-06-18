@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import History from './History';
-import { Brain, ArrowLeft, Sparkles, Flame, Calendar, Puzzle, Search, Lightbulb, CheckCircle, AlertTriangle } from 'lucide-react';
+import { Brain, ArrowLeft, Sparkles, Flame, Calendar, Puzzle, Search, Lightbulb, CheckCircle } from 'lucide-react';
 
 function Tool() {
   const [thought, setThought] = useState('');
