@@ -67,19 +67,20 @@ App runs at `http://localhost:3000`
 
 ## 📁 Project Structure
 
+```
 questiq/
-
-├── client/          # React frontend
+├── client/
 │   ├── public/
 │   └── src/
 │       ├── App.js
 │       ├── Landing.js
 │       ├── Tool.js
 │       └── History.js
-└── server/          # Node.js backend
-├── index.js
-└── routes/
-    └── analyze.js
+└── server/
+    ├── index.js
+    └── routes/
+        └── analyze.js
+```
 
 ## 🔮 What's Next
 QuestIQ is the first of two projects I'm building at the intersection of psychology, history, and technology. The second — **Ripple** — is a historical consequence engine that lets you explore alternate timelines and their human impact.
