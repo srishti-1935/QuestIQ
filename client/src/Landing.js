@@ -11,7 +11,7 @@ function Landing() {
 
       <nav className="nav">
         <div className="nav-logo">
-          <img src="/images/logo.png" alt="QuestIQ" className="nav-logo-img" />
+          <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="QuestIQ" className="nav-logo-img" />
           QuestIQ
         </div>
         <Link to="/app" className="nav-cta">Try it free <ArrowRight size={13} /></Link>

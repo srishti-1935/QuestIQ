@@ -71,7 +71,7 @@ function Tool() {
       <div className="tool-page">
         <div className="tool-nav">
           <Link to="/" className="tool-nav-logo">
-            <img src="/images/logo.jpg" alt="QuestIQ" className="nav-logo-img" />
+            <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="QuestIQ" className="nav-logo-img" />
             QuestIQ
           </Link>
           <Link to="/" className="back-btn">
