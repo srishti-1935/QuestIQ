@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import History from './History';
-import { Brain, ArrowLeft, Sparkles, Flame, Calendar, Puzzle, Search, Lightbulb, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Sparkles, Flame, Calendar, Puzzle, Search, Lightbulb, CheckCircle } from 'lucide-react';
 
 function Tool() {
   const [thought, setThought] = useState('');
@@ -71,7 +71,7 @@ function Tool() {
       <div className="tool-page">
         <div className="tool-nav">
           <Link to="/" className="tool-nav-logo">
-            <img src="/images/logo.png" alt="QuestIQ" className="nav-logo-img" />
+            <img src="/images/logo.jpg" alt="QuestIQ" className="nav-logo-img" />
             QuestIQ
           </Link>
           <Link to="/" className="back-btn">
