@@ -82,7 +82,6 @@ questiq/
         └── analyze.js
 ```
 
-## 🔮 What's Next
-QuestIQ is the first of two projects I'm building at the intersection of psychology, history, and technology. The second — **Ripple** — is a historical consequence engine that lets you explore alternate timelines and their human impact.
+
 
 ---
